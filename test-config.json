@@ -15,7 +15,7 @@
                 "type": "date"
             },
             "yaxis": {
-                "autorange": true,
+                "autorange": true
             },
             "showlegend": true,
             "legend": {
