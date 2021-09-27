@@ -1,24 +1,26 @@
-{
-    "displayModeBar": true,
-    "margin": {
-        "l": 30,
-        "r": 30,
-        "b": 30,
-        "t": 5,
-        "pad": 4
-    },
-    "xaxis": {
-        "autorange": true,
-        "margin": 0,
-        "type": "date"
-    },
-    "yaxis": {
-        "autorange": true,
-    },
-    "showlegend": true,
-    "legend": {
-        "orientation": "h",
-        "y": -0.2
-    },
-    "autosize": true
+"extensionConfig": {
+    "watsonc": {
+        "displayModeBar": true,
+        "margin": {
+            "l": 30,
+            "r": 30,
+            "b": 30,
+            "t": 5,
+            "pad": 4
+        },
+        "xaxis": {
+            "autorange": true,
+            "margin": 0,
+            "type": "date"
+        },
+        "yaxis": {
+            "autorange": true,
+        },
+        "showlegend": true,
+        "legend": {
+            "orientation": "h",
+            "y": -0.2
+        },
+        "autosize": true
+    }
 }
