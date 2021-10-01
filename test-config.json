@@ -16,8 +16,31 @@
           "type": "date"
         },
         "yaxis": {
-          "autorange": true
+          "autorange": true,
+		  "title": {
+		"text": 'Vandstand',
+		"font": {
+		"size": 14
+	},
         },
+		
+		"yaxis2": {
+			"showgrid": false,
+			"overlaying": 'y',
+			"side": 'right',
+			"position": 0.97,
+			"anchor": 'x',
+			"title": {
+				"text": 'Flow',
+				"font": {
+					"size": 14
+				},
+
+			}
+    },
+		
+		
+		
         "showlegend": true,
         "legend": {
           "orientation": "h",
