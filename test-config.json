@@ -18,7 +18,7 @@
         "yaxis": {
           "autorange": true,
 		  "title": {
-		"text": 'Vandstand',
+		"text": "Vandstand",
 		"font": {
 		"size": 14
 	},
@@ -26,12 +26,12 @@
 		
 		"yaxis2": {
 			"showgrid": false,
-			"overlaying": 'y',
-			"side": 'right',
+			"overlaying": "y",
+			"side": "right",
 			"position": 0.97,
-			"anchor": 'x',
+			"anchor": "x",
 			"title": {
-				"text": 'Flow',
+				"text": "Flow",
 				"font": {
 					"size": 14
 				},
