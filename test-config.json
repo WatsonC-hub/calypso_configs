@@ -15,6 +15,14 @@
                     "margin": 0,
                     "type": "date"
                 },
+                "xaxis2": {
+                    "anchor": "y",
+                    "overlaying": "x",
+                    "side": "top",
+                    "visible": false,
+                    "range": [0, 1],
+                    "fixedrange": true
+                },
                 "yaxis": {
                     "autorange": true,
                     "title": {
