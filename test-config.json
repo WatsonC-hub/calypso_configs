@@ -3,6 +3,7 @@
         "watsonc": {
             "plotLayout": {
                 "displayModeBar": true,
+		"modeBarButtonsToRemove": ["toImage"]
                 "margin": {
                     "l": 60,
                     "r": 40,
