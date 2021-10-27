@@ -1,4 +1,10 @@
 {
+    "schemata": {
+        "chemicals",
+        "sensor",
+        "system",
+        "calypso_stationer"
+    },
     "extensionConfig": {
         "watsonc": {
             "plotLayout": {
