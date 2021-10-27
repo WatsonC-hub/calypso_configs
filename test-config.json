@@ -2,8 +2,7 @@
     "schemata": [
         "chemicals",
         "sensor",
-        "system",
-        "calypso_stationer"
+        "system"
     ],
     "extensionConfig": {
         "watsonc": {
