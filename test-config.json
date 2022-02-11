@@ -4,6 +4,9 @@
         "sensor",
         "system"
     ],
+    "cssFiles": [
+        "calypso.css"
+    ],
     "extensionConfig": {
         "watsonc": {
             "plotLayout": {
