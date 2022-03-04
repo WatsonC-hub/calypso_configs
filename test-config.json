@@ -69,6 +69,7 @@
                     
                         }, {
                             "step": "all",
+                            "stepmode": "todate",
                             "label": "Alt"
                     
                         }]
