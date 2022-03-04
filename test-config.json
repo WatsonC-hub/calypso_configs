@@ -41,7 +41,7 @@
                     "pad": 4
                 },
                 "xaxis": {
-                    "autorange": false,
+                    "autorange": true,
                     "margin": 0,
                     "type": "date",
                     "rangeselector": {
