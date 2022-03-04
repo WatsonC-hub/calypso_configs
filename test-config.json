@@ -13,6 +13,24 @@
                 "red": ["#FF2117", "#FF8C00", "#FFD93D", "#C69563", "#8B4819"],
                 "blue": ["#131FAA", "#228EE3", "#9A5BD4", "#8BC633", "#5AA136"]
             },
+            "yaxisTitles": {
+                1: "Vandstand",
+                2: "Vandføring",
+                3: "Kemi",
+                4: "Nedbør",
+                6: "Hastighed",
+                7: "Spændring,
+                8: "Opløst ilt",
+                9: "Fugtighed",
+                10: "Salinitet",
+                11: "Temperatur",
+                12: "Konduktivitet",
+                13: "Abs220",
+                14: "Abs270",
+                15: "Vandføring tæller",
+                16: "Nitrat,
+                17: "Tryk"
+            },
             "plotLayout": {
                 "displayModeBar": true,
                 "margin": {
