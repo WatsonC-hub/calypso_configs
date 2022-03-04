@@ -19,7 +19,7 @@
                 3: "Kemi",
                 4: "Nedbør",
                 6: "Hastighed",
-                7: "Spændring,
+                7: "Spænding",
                 8: "Opløst ilt",
                 9: "Fugtighed",
                 10: "Salinitet",
@@ -28,7 +28,7 @@
                 13: "Abs220",
                 14: "Abs270",
                 15: "Vandføring tæller",
-                16: "Nitrat,
+                16: "Nitrat",
                 17: "Tryk"
             },
             "plotLayout": {
