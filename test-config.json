@@ -96,6 +96,20 @@
                     "showgrid": false,
                     "overlaying": "y",
                     "side": "right",
+                    "position": 0.90,
+                    "anchor": "x",
+                    "title": {
+                        "text": "Flow",
+                        "font": {
+                            "size": 14
+                        }
+
+                    }
+                },
+                "yaxis3": {
+                    "showgrid": false,
+                    "overlaying": "y",
+                    "side": "right",
                     "position": 0.97,
                     "anchor": "x",
                     "title": {
