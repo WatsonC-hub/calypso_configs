@@ -67,11 +67,6 @@
                             "count": 1,
                             "label": "1år"
                     
-                        }, {
-                            "step": "all",
-                            "stepmode": "todate",
-                            "label": "Alt"
-                    
                         }]
                     }
                 },
