@@ -18,7 +18,7 @@
             "index": {
                 "name": "chemicals/boreholes_time_series_without_chemicals_view",
                 "field": "boreholeno",
-                "key": "gid",
+                "key": "gid"
 
             },
             "relation": {
