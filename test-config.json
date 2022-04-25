@@ -7,6 +7,27 @@
     "cssFiles": [
         "calypso.css"
     ],
+    "searchConfig": {
+        "size": 10,
+        "komkode": "*",
+        "extraSearches": [{
+            "name": "dgunr",
+            "db": "jupiter",
+            "host": "https://watsonc.admin.gc2.io",
+            "heading": "DGU nr.",
+            "index": {
+                "name": "chemicals/boreholes_time_series_without_chemicals_view",
+                "field": "boreholeno",
+                "key": "gid",
+
+            },
+            "relation": {
+                "name": "chemicals.boreholes_time_series_without_chemicals",
+                "key": "gid",
+                "geom": "the_geom"
+            }
+        }]
+    },
     "extensionConfig": {
         "watsonc": {
             "colorScales": {
