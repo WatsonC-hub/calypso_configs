@@ -50,7 +50,8 @@
                 "14": "Abs270",
                 "15": "Vandføring tæller",
                 "16": "Nitrat",
-                "17": "Tryk"
+                "17": "Tryk",
+                "18": "Ilt mætning"
             },
             "plotLayout": {
                 "displayModeBar": true,
