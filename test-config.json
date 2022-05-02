@@ -28,6 +28,7 @@
             }
         }]
     },
+    "dontUseAdvancedBaseLayerSwitcher": true,
     "extensionConfig": {
         "watsonc": {
             "colorScales": {
