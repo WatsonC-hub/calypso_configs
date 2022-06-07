@@ -33,14 +33,14 @@
             "host": "https://watsonc.admin.gc2.io",
             "heading": "IoT",
             "index": {
-                "name": "elastic_search/groundwater",
-                "field": "search_string",
-                "key": "id"
+                "name": "elastic_search/iot_elastic_search",
+                "field": "loc_name",
+                "key": "loc_id"
 
             },
             "relation": {
-                "name": "elastic_search.groundwater",
-                "key": "id",
+                "name": "elastic_search.iot_elastic_search",
+                "key": "loc_id",
                 "geom": "the_geom"
             }
         }]
