@@ -39,8 +39,8 @@
 
             },
             "relation": {
-                "name": "calypso_stationer.groundwater",
-                "key": "loc_id",
+                "name": "elastic_search.groundwater",
+                "key": "id",
                 "geom": "the_geom"
             }
         }]
