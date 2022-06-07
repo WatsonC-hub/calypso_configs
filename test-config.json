@@ -26,6 +26,23 @@
                 "key": "gid",
                 "geom": "the_geom"
             }
+        },
+                                  {
+            "name": "Grundvand",
+            "db": "jupiter",
+            "host": "https://watsonc.admin.gc2.io",
+            "heading": "IoT",
+            "index": {
+                "name": "elastic_search/groundwater",
+                "field": "search_string",
+                "key": "id"
+
+            },
+            "relation": {
+                "name": "calypso_stationer.groundwater",
+                "key": "loc_id",
+                "geom": "the_geom"
+            }
         }]
     },
     "dontUseAdvancedBaseLayerSwitcher": true,
