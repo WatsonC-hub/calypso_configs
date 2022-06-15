@@ -18,3 +18,7 @@
 #layer-panel-R3J1bmR2YW5kLCBhbmFseXNlcg {
   display: none !important;
 }
+
+[data-gc2-layer-key="kortforsyningen.dhm_kurver_2_5_m.the_geom"] .js-toggles-container { 
+  display: none !important;
+}
