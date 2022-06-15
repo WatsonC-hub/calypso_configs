@@ -23,10 +23,10 @@
   display: none !important;
 }
 
-[data-gc2-layer-key="kortforsyningen.dhm_kurver_0_5_m.the_geom"] .js-toggle-search, .js-toggle-labels, .js-toggle-load, .js-toggle-filters .js-toggle-filters-number-of-filters { 
+[data-gc2-layer-key="kortforsyningen.dhm_kurver_0_5_m.the_geom"] .js-toggle-search, .js-toggle-labels, .js-toggle-load, .js-toggle-filters, .js-toggle-filters-number-of-filters { 
   display: none !important;
 }
 
-[data-gc2-layer-key="kortforsyningen.dhm_kurver_0_25_m.the_geom"] .js-toggle-search, .js-toggle-labels, .js-toggle-load, .js-toggle-filters .js-toggle-filters-number-of-filters { 
+[data-gc2-layer-key="kortforsyningen.dhm_kurver_0_25_m.the_geom"] .js-toggle-search, .js-toggle-labels, .js-toggle-load, .js-toggle-filters, .js-toggle-filters-number-of-filters { 
   display: none !important;
 }
