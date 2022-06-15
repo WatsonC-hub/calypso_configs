@@ -23,7 +23,7 @@
   display: none !important;
 }
 
-[data-gc2-layer-key="kortforsyningen.dhm_kurver_0_5_m.the_geom"] #layer-tools-filters { 
+[data-gc2-layer-key="kortforsyningen.dhm_kurver_0_5_m.the_geom"] #layer-tools-search, #layer-tools-labels, #layer-tools-load, #layer-tools-filters { 
   display: none !important;
 }
 
