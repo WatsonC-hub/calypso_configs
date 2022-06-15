@@ -27,6 +27,6 @@
   display: none !important;
 }
 
-[data-gc2-layer-key="kortforsyningen.dhm_kurver_0_25_m.the_geom"] .js-toggles-container { 
+[data-gc2-layer-key="kortforsyningen.dhm_kurver_0_25_m.the_geom"] .js-toggle-search .js-toggle-labels .js-toggle-load .js-toggle-filters { 
   display: none !important;
 }
