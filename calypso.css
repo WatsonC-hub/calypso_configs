@@ -30,3 +30,8 @@
 [data-gc2-layer-key="kortforsyningen.dhm_kurver_0_25_m.the_geom"] :is(.js-toggle-search, .js-toggle-labels, .js-toggle-load, .js-toggle-filters, .js-toggle-filters-number-of-filters) { 
   display: none !important;
 }
+
+/* Fjerner Vilkårlige filtre, knapper til at skifte imellem samt "filter funktioner" som download osv, som alligevel ikke virker til at virke  */
+[data-gc2-layer-key="gc2_io_dk_danmarksarealinformation.bes_naturtyper.the_geom"] :is(.js-arbitrary-filters, .btn-group, .btn-group-justified, .filter-functions) { 
+  display: none !important;
+}
