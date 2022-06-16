@@ -39,3 +39,7 @@
 .filter-functions { 
   display: none !important;
 }
+
+.js-toggle-search {
+    display: none !important;
+}
