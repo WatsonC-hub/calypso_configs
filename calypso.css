@@ -35,3 +35,7 @@
 [data-gc2-layer-key="gc2_io_dk_danmarksarealinformation.bes_naturtyper.the_geom"] :is(.js-arbitrary-filters, .btn-group, .btn-group-justified, .filter-functions) { 
   display: none !important;
 }
+
+.filter-functions { 
+  display: none !important;
+}
