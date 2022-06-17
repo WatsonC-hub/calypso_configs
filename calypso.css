@@ -43,3 +43,44 @@
 .js-toggle-search {
     display: none !important;
 }
+
+[data-gc2-layer-key="gc2_io_dk_grukos.drikkevandsinteresser.the_geom"] :is(.js-arbitrary-filters, .btn-group, .btn-group-justified, .filter-functions) { 
+  display: none !important;
+}
+
+[data-gc2-layer-key="gc2_io_dk_grukos.foelsommeindvindingsomraader.the_geom"] :is(.js-arbitrary-filters, .btn-group, .btn-group-justified, .filter-functions) { 
+  display: none !important;
+}
+
+[data-gc2-layer-key="gc2_io_dk_grukos.saarbarhed_nitrat.the_geom"] :is(.js-arbitrary-filters, .btn-group, .btn-group-justified, .filter-functions) { 
+  display: none !important;
+}
+
+[data-gc2-layer-key="analyser.borehole_formanv.the_geom"] :is(.js-arbitrary-filters, .btn-group, .btn-group-justified, .filter-functions) { 
+  display: none !important;
+}
+
+[data-gc2-layer-key="gc2_io_dk_grukos.indsatsomraader.the_geom"] :is(.js-arbitrary-filters, .btn-group, .btn-group-justified, .filter-functions) { 
+  display: none !important;
+}
+
+[data-gc2-layer-key="gc2_io_dk_geodanmark.vandloebsmidte_brudt.the_geom"] :is(.js-toggle-search, .js-toggle-labels, .js-toggle-load, .js-toggle-filters, .js-toggle-filters-number-of-filters) { 
+  display: none !important;
+}
+
+[data-gc2-layer-key="gc2_io_dk_danmarksarealinformation.habitat_omr.the_geom"] :is(.js-toggle-search, .js-toggle-load, .js-toggle-filters, .js-toggle-filters-number-of-filters) { 
+  display: none !important;
+}
+
+[data-gc2-layer-key="gc2_io_dk_dkjord.dkjord_v1.the_geom"] :is(.js-toggle-search, .js-toggle-labels, .js-toggle-load, .js-toggle-filters, .js-toggle-filters-number-of-filters) { 
+  display: none !important;
+}
+
+[data-gc2-layer-key="gc2_io_dk_dkjord.dkjord_v2.the_geom"] :is(.js-toggle-search, .js-toggle-labels, .js-toggle-load, .js-toggle-filters, .js-toggle-filters-number-of-filters) { 
+  display: none !important;
+}
+
+[data-gc2-layer-key="gc2_io_dk_matrikel.jordstykke.the_geom"] :is(.js-toggle-search, .js-toggle-load, .js-toggle-filters, .js-toggle-filters-number-of-filters) { 
+  display: none !important;
+}
+
