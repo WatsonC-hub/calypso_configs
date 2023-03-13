@@ -12,7 +12,7 @@
         "komkode": "*",
         "extraSearches": [
           {
-            "name": "Vandcenter Syd",
+            "name": "VCS",
             "db": "jupiter",
             "host": "https://watsonc.admin.gc2.io",
             "heading": "Vandcenter Syd",
