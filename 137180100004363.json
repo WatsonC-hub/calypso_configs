@@ -1,0 +1,165 @@
+{
+    "schemata": [
+        "chemicals",
+        "sensor",
+        "system"
+    ],
+    "cssFiles": [
+        "calypso.css"
+    ],
+    "searchConfig": {
+        "size": 10,
+        "komkode": "*",
+        "extraSearches": [
+          {
+            "name": "Vandcenter Syd",
+            "db": "jupiter",
+            "host": "https://watsonc.admin.gc2.io",
+            "heading": "Vandcenter Syd",
+            "index": {
+                "name": "elastic_search/vcs_elastic_search",
+                "field": "search_string",
+                "key": "loc_id"
+
+            },
+            "relation": {
+                "name": "elastic_search.vcs_elastic_search",
+                "key": "loc_id",
+                "geom": "the_geom"
+            }
+        }]
+    },
+    "dontUseAdvancedBaseLayerSwitcher": true,
+    "extensionConfig": {
+        "watsonc": {
+            "colorScales": {
+                "red": ["#FF2117", "#FF8C00", "#FFD93D", "#C69563", "#8B4819"],
+                "blue": ["#131FAA", "#228EE3", "#9A5BD4", "#8BC633", "#5AA136"]
+            },
+            "yaxisTitles": {
+                "1": "Vandstand",
+                "2": "Vandføring",
+                "3": "Kemi",
+                "4": "Nedbør",
+                "6": "Hastighed",
+                "7": "Spænding",
+                "8": "Opløst ilt",
+                "9": "Fugtighed",
+                "10": "Salinitet",
+                "11": "Temperatur",
+                "12": "Konduktivitet",
+                "13": "Abs220",
+                "14": "Abs270",
+                "15": "Vandføring tæller",
+                "16": "Nitrat",
+                "17": "Tryk",
+                "18": "Ilt mætning"
+            },
+            "plotLayout": {
+                "displayModeBar": true,
+                "margin": {
+                    "l": 60,
+                    "r": 60,
+                    "b": 0,
+                    "t": 30,
+                    "pad": 4
+                },
+                "xaxis": {
+                    "autorange": false,
+                    "margin": 0,
+                    "type": "date",
+                    "rangeselector": {
+                        "buttons": [{
+                            "step": "day",
+                            "stepmode": "backward",
+                            "count": 1,
+                            "label": "1dag"
+                        }, {
+                            "step": "day",
+                            "stepmode": "backward",
+                            "count": 7,
+                            "label": "1uge"
+                        }, {
+                            "step": "month",
+                            "stepmode": "backward",
+                            "count": 1,
+                            "label": "1måned"
+                    
+                        }, {
+                            "step": "year",
+                            "stepmode": "backward",
+                            "count": 1,
+                            "label": "1år"
+                    
+                        }]
+                    }
+                },
+                "xaxis2": {
+                    "anchor": "y",
+                    "overlaying": "x",
+                    "side": "top",
+                    "visible": false,
+                    "range": [0, 1],
+                    "fixedrange": true
+                },
+                "yaxis": {
+                    "autorange": true,
+                    "title": {
+                        "text": "Vandstand",
+                        "font": {
+                            "size": 14
+                        }
+                    }
+                },
+                "yaxis2": {
+                    "showgrid": false,
+                    "overlaying": "y",
+                    "side": "right",
+                    "position": 0.90,
+                    "anchor": "x",
+                    "title": {
+                        "text": "Flow",
+                        "font": {
+                            "size": 14
+                        }
+
+                    }
+                },
+                "yaxis3": {
+                    "showgrid": false,
+                    "overlaying": "y",
+                    "side": "right",
+                    "position": 0.97,
+                    "anchor": "x",
+                    "title": {
+                        "text": "Flow",
+                        "font": {
+                            "size": 14
+                        }
+
+                    }
+                },
+                "yaxis4": {
+                    "showgrid": false,
+                    "overlaying": "y",
+                    "side": "right",
+                    "position": 0.97,
+                    "anchor": "x",
+                    "title": {
+                        "text": "Nedbør",
+                        "font": {
+                            "size": 14
+                        }
+
+                    }
+                },
+                "showlegend": true,
+                "legend": {
+                    "orientation": "h",
+                    "y": -0.1
+                },
+                "autosize": true
+            }
+        }
+    }
+}
