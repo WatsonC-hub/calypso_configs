@@ -145,6 +145,7 @@
                     "side": "right",
                     "position": 0.97,
                     "anchor": "x",
+                    "autorange": "reversed",
                     "title": {
                         "text": "Nedbør",
                         "font": {
