@@ -144,7 +144,7 @@
                     "overlaying": "y",
                     "side": "right",
                     "position": 0.97,
-                    "anchor": "x",
+                    "anchor": "free",
                     "autorange": "reversed",
                     "title": {
                         "text": "Nedbør",
