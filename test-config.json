@@ -48,6 +48,7 @@
     "dontUseAdvancedBaseLayerSwitcher": true,
     "extensionConfig": {
         "watsonc": {
+            "premiumEmailExtensions": ["cae.au.dk"],
             "colorScales": {
                 "red": ["#FF2117", "#FF8C00", "#FFD93D", "#C69563", "#8B4819"],
                 "blue": ["#131FAA", "#228EE3", "#9A5BD4", "#8BC633", "#5AA136"]
