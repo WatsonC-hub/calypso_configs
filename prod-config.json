@@ -196,6 +196,32 @@
     },
     {
         "type": "wms",
+        "url": "/api/datafordeler/HoejeMaalebordsblade/topo20_hoeje_maalebordsblade/1.0.0/WMS",
+        "layers": ["dtk_hoeje_maalebordsblade"],
+        "id": "dtk_hoeje_maalebordsblade",
+        "name": "Høje målebordsplade",
+        "description": "Nyeste høje målebordsblade",
+        "attribution": "Styrelsen for Dataforsyning og Effektivisering",
+        "minZoom": 8,
+        "maxZoom": 22,
+        "maxNativeZoom": 22,
+        "transparent": true 
+    },
+    {
+        "type": "wms",
+        "url": "/api/datafordeler/LaveMaalebordsblade/topo20_lave_maalebordsblade/1.0.0/WMS",
+        "layers": ["dtk_lave_maalebordsblade"],
+        "id": "dtk_lave_maalebordsblade",
+        "name": "Lave målebordsblade",
+        "description": "Nyeste lave målebordsblade",
+        "attribution": "Styrelsen for Dataforsyning og Effektivisering",
+        "minZoom": 8,
+        "maxZoom": 22,
+        "maxNativeZoom": 22,
+        "transparent": true 
+    },
+    {
+        "type": "wms",
         "url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
         "layers": ["geodanmark_2022_12_5cm"],
         "id": "geodanmark_2022_12_5cm",
