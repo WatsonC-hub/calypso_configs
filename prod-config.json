@@ -183,19 +183,6 @@
     {"id": "osm", "name": "Open Street Map"},
     {
         "type": "wms",
-        "url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
-        "layers": ["orto_foraar_12_5"],
-        "id": "orto_foraar_12_5",
-        "name": "Luftfoto Nyeste",
-        "description": "Nyeste ortofoto",
-        "attribution": "Styrelsen for Dataforsyning og Effektivisering",
-        "minZoom": 8,
-        "maxZoom": 22,
-        "maxNativeZoom": 22,
-        "transparent": true
-    },
-    {
-        "type": "wms",
         "url": "/api/datafordeler/HoejeMaalebordsblade/topo20_hoeje_maalebordsblade/1.0.0/WMS",
         "layers": ["dtk_hoeje_maalebordsblade"],
         "id": "dtk_hoeje_maalebordsblade",
@@ -219,6 +206,19 @@
         "maxZoom": 22,
         "maxNativeZoom": 22,
         "transparent": true 
+    },
+    {
+        "type": "wms",
+        "url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+        "layers": ["orto_foraar_12_5"],
+        "id": "orto_foraar_12_5",
+        "name": "Luftfoto Nyeste",
+        "description": "Nyeste ortofoto",
+        "attribution": "Styrelsen for Dataforsyning og Effektivisering",
+        "minZoom": 8,
+        "maxZoom": 22,
+        "maxNativeZoom": 22,
+        "transparent": true
     },
     {
         "type": "wms",
