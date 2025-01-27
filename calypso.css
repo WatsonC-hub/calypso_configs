@@ -84,3 +84,10 @@
   display: none !important;
 }
 
+.btn[disabled] {
+  background-color: inherit !important;
+}
+
+.input-group-btn .btn[disabled] {
+  cursor: default !important;
+}
