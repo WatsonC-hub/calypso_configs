@@ -16,13 +16,13 @@
             "host": "https://watsonc.admin.gc2.io",
             "heading": "DGU nr.",
             "index": {
-                "name": "chemicals/boreholes_time_series_without_chemicals_view",
+                "name": "elastic_search/all_boreholes",
                 "field": "boreholeno",
                 "key": "gid"
 
             },
             "relation": {
-                "name": "chemicals.boreholes_time_series_without_chemicals",
+                "name": "elastic_search.all_boreholes",
                 "key": "gid",
                 "geom": "the_geom"
             }
