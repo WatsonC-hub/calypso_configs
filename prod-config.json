@@ -208,9 +208,10 @@
         "transparent": true 
     },
     {
-        "type": "wms",
-        "url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
-        "layers": ["orto_foraar_12_5"],
+        "type": "WMTS",
+        "url": "https://api.dataforsyningen.dk/orto_foraar_webm_DAF?token=0b2892e76cf602dccdac0a9fc0f6a715&",
+        "tileMatrixSet": "DFD_GoogleMapsCompatible",
+        "layer": "orto_foraar_webm",
         "id": "orto_foraar_12_5",
         "name": "Luftfoto Nyeste",
         "description": "Nyeste ortofoto",
@@ -222,7 +223,7 @@
     },
     {
         "type": "wms",
-        "url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+        "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?token=eaca82e1cb411d78e841c7eba8ec1bbc",
         "layers": ["geodanmark_2022_12_5cm"],
         "id": "geodanmark_2022_12_5cm",
         "name": "Luftfoto 2022",
